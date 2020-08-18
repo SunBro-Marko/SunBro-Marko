@@ -47,7 +47,7 @@
 ### 📺 Latest YouTube Videos
 
 <!-- YOUTUBE:START -->
-
+- [Протесты в Беларуси от первого лица   Редакция - color correction](https://www.youtube.com/watch?v=KsSV9eRwzBE)
 <!-- YOUTUBE:END -->
 
 ➡️ [more videos...](https://youtube.com/codestackr)
