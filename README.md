@@ -50,7 +50,7 @@
 - [Протесты в Беларуси от первого лица   Редакция - color correction](https://www.youtube.com/watch?v=KsSV9eRwzBE)
 <!-- YOUTUBE:END -->
 
-➡️ [more videos...](https://youtube.com/codestackr)
+➡️ [more videos...](https://youtube.com/UCsINOCJyiVcd3bqNh8bqsyw)
 
 ### 📺 My GitHub Stats
 
@@ -59,10 +59,7 @@
 
 [website]: https://sunbro.ru
 [twitter]: https://twitter.com/sunbro_marko
-[youtube]: https://youtube.com/codeSTACKr
+[youtube]: https://youtube.com/UCsINOCJyiVcd3bqNh8bqsyw
 [instagram]: https://www.instagram.com/sunbro.marko/
 [linkedin]: https://www.linkedin.com/in/sunbro-marko
-[webdevplaylist]: https://www.youtube.com/playlist?list=PLkwxH9e_vrAJ0WbEsFA9W3I1W-g_BTsbt
-[jsplaylist]: https://www.youtube.com/playlist?list=PLkwxH9e_vrALRJKu7wfXby3MKeflhTu6B
-[cssplaylist]: https://www.youtube.com/playlist?list=PLkwxH9e_vrALSdvZuEh6gqQdmDoDIoqz4
-[reactplaylist]: https://www.youtube.com/playlist?list=PLkwxH9e_vrAK4TdffpxKY3QGyHCpxFcQ0
+
