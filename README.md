@@ -2,16 +2,13 @@
 
 ### Hi there, I'm Mikhail - aka [SunBro Marko][website] 👋
 
-[![Website](https://img.shields.io/website?label=codeSTACKr.com&style=for-the-badge&url=https%3A%2F%2Fcodestackr.com)](https://codestackr.com)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codeSTACKr?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2FcodeSTACKr&screen_name=codeSTACKr)
-
 ## I'm a JavaScript Junior Developer!
 
-- 🔭 I’m currently working on a [VS Code Course][website]!
-- 🌱 I’m currently learning everything 🤣
-- 👯 I’m looking to collaborate with other content creators
-- 🥅 2020 Goals: Contribute more to Open Source projects
-- ⚡ Fun fact: I love to draw and play guitar / drums
+- 🔭 Я начал свой путь программиста год назад!
+- 🌱 Я стараюсь применять новые фичи на практике, сразу после изучения теории 🤣
+- 👯 Я имею большой опыт работы в команде, а так-же опыт ведения проектов
+- 🥅 2020 Goals: Выполнил первый коммерческий проект на JS с применением node.js и VUE.js [link]
+- ⚡ Fun fact: "Смешной факт обо мне - скорее всего я забуду обновить это поле"
 
 ### Spotify Playing 🎧
 [<img src="https://novatorem.sunbro-marko.vercel.app/api/spotify-playing" alt="codeSTACKr Spotify Playing" width="350" />](https://open.spotify.com/user/87ca9g6ln46e5641a6e4nov5p)
