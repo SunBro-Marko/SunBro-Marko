@@ -11,6 +11,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: sunbro-marko/github-activity-readme@master
+      - uses: jamesgeorge007/github-activity-readme@master
         env:
-          GITHUB_TOKEN: 64a5e32c1cf19fee1cd552109c0c2e44ec8bdc4f
+          GITHUB_TOKEN: 64a5e32c1cf19fee1cd552109c0c2e44ec8bdc4f 
