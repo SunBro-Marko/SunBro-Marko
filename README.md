@@ -1,5 +1,3 @@
-РАЗДЕЛ В РАЗРАБОТКЕ. ОСНОВАНАЯ ИНФОРМАЦИЯ НАГЛО СВОРОВАНА У 
-
 ### Hi there, I'm Mikhail - aka [SunBro Marko][website] 👋
 
 ## I'm a JavaScript Junior Developer!
