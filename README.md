@@ -52,23 +52,10 @@
 
 ➡️ [more videos...](https://youtube.com/codestackr)
 
----
-
-<details>
-  <summary>:zap: Recent Github Activity</summary>
-  
-<!--START_SECTION:activity-->
-
-<!--END_SECTION:activity-->
-
-</details>
-
-<details>
-  <summary>:zap: Github Stats</summary>
+### 📺 My GitHub Stats
 
   <img align="left" alt="SunBro_Marko's Github Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=sunbro-marko&show_icons=true&hide_border=true" />
 
-</details>
 
 [website]: https://sunbro.ru
 [twitter]: https://twitter.com/sunbro_marko
