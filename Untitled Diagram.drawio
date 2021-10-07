@@ -1,42 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2021-10-07T08:04:31.387Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="wRx1Wg3DigaGQS0fXHkN" version="15.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-07T09:15:09.858Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="l9mc7Q4xvT1LqO23sldQ" version="15.0.3" type="github" pages="2">
   <diagram id="QPJjpV0ahq78SXW-Z95E" name="Схема авторизированного запроса">
     <mxGraphModel dx="2066" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="KFji_q9-Yh2TTK4zWRBe-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;verticalAlign=bottom;" edge="1" parent="1" source="KFji_q9-Yh2TTK4zWRBe-1" target="KFji_q9-Yh2TTK4zWRBe-22">
+        <mxCell id="tmAFMNnFplFG-j8Vp38l-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;verticalAlign=bottom;" edge="1" parent="1" source="KFji_q9-Yh2TTK4zWRBe-1" target="tmAFMNnFplFG-j8Vp38l-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KFji_q9-Yh2TTK4zWRBe-1" value="Передача данных на валидацию" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="530" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="525" width="120" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="KFji_q9-Yh2TTK4zWRBe-2" value="Передача hash функции для подписания сертифицированной электронной подписью" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="560" y="130" width="220" height="60" as="geometry" />
+        <mxCell id="KFji_q9-Yh2TTK4zWRBe-2" value="Передача уникального UID операции для подписания сертифицированной электронной подписью" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="570" y="170" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KFji_q9-Yh2TTK4zWRBe-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;verticalAlign=bottom;" edge="1" parent="1" source="KFji_q9-Yh2TTK4zWRBe-3" target="KFji_q9-Yh2TTK4zWRBe-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KFji_q9-Yh2TTK4zWRBe-3" value="Формирование намерения изменения данных в системе" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="130" width="160" height="60" as="geometry" />
+          <mxGeometry x="330" y="170" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KFji_q9-Yh2TTK4zWRBe-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=bottom;" edge="1" parent="1" source="KFji_q9-Yh2TTK4zWRBe-4" target="KFji_q9-Yh2TTK4zWRBe-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400" y="590" as="targetPoint" />
+            <mxPoint x="410" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KFji_q9-Yh2TTK4zWRBe-13" value="Подпись валидна" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KFji_q9-Yh2TTK4zWRBe-12">
           <mxGeometry x="-0.7" y="-1" relative="1" as="geometry">
-            <mxPoint x="-59" y="11" as="offset" />
+            <mxPoint x="-59" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KFji_q9-Yh2TTK4zWRBe-28" value="У пользователя есть права на изменения" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KFji_q9-Yh2TTK4zWRBe-12">
           <mxGeometry x="-0.7" y="-1" relative="1" as="geometry">
-            <mxPoint x="-119" y="301" as="offset" />
+            <mxPoint x="-119" y="363" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KFji_q9-Yh2TTK4zWRBe-29" value="Данные валидны" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KFji_q9-Yh2TTK4zWRBe-12">
           <mxGeometry x="-0.7" y="-1" relative="1" as="geometry">
-            <mxPoint x="-49" y="471" as="offset" />
+            <mxPoint x="-69" y="503" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KFji_q9-Yh2TTK4zWRBe-30" value="Данные не валидны" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KFji_q9-Yh2TTK4zWRBe-12">
@@ -51,57 +51,67 @@
         </mxCell>
         <mxCell id="KFji_q9-Yh2TTK4zWRBe-40" value="Данные не совпадают" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KFji_q9-Yh2TTK4zWRBe-12">
           <mxGeometry x="-0.7" y="-1" relative="1" as="geometry">
-            <mxPoint x="191" y="-209" as="offset" />
+            <mxPoint x="191" y="-197" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KFji_q9-Yh2TTK4zWRBe-41" value="Или истекло время на реализацию&lt;br&gt;намерения" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KFji_q9-Yh2TTK4zWRBe-12">
           <mxGeometry x="-0.7" y="-1" relative="1" as="geometry">
-            <mxPoint x="181" y="-179" as="offset" />
+            <mxPoint x="191" y="-167" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KFji_q9-Yh2TTK4zWRBe-42" value="Данные совпадают" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KFji_q9-Yh2TTK4zWRBe-12">
           <mxGeometry x="-0.7" y="-1" relative="1" as="geometry">
-            <mxPoint x="-59" y="-129" as="offset" />
+            <mxPoint x="-59" y="-127" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tmAFMNnFplFG-j8Vp38l-5" value="Подписанные данные валидны" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KFji_q9-Yh2TTK4zWRBe-12">
+          <mxGeometry x="-0.7" y="-1" relative="1" as="geometry">
+            <mxPoint x="-89" y="213" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tmAFMNnFplFG-j8Vp38l-6" value="Подпись данных не валидна" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KFji_q9-Yh2TTK4zWRBe-12">
+          <mxGeometry x="-0.7" y="-1" relative="1" as="geometry">
+            <mxPoint x="171" y="143" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KFji_q9-Yh2TTK4zWRBe-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;verticalAlign=bottom;" edge="1" parent="1" source="KFji_q9-Yh2TTK4zWRBe-4" target="KFji_q9-Yh2TTK4zWRBe-19">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="680" y="420" />
+              <mxPoint x="690" y="440" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KFji_q9-Yh2TTK4zWRBe-4" value="Проверка подписи&lt;br&gt;HASH функции" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="325" y="370" width="150" height="100" as="geometry" />
+        <mxCell id="KFji_q9-Yh2TTK4zWRBe-4" value="Проверка подписи&lt;br style=&quot;font-size: 11px;&quot;&gt;уникального UID операции" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="335" y="390" width="150" height="100" as="geometry" />
         </mxCell>
         <mxCell id="KFji_q9-Yh2TTK4zWRBe-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;verticalAlign=bottom;" edge="1" parent="1" source="KFji_q9-Yh2TTK4zWRBe-5" target="KFji_q9-Yh2TTK4zWRBe-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KFji_q9-Yh2TTK4zWRBe-5" value="Инициализация запроса к API с формированием намерения на изменения данных в системе" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="40" y="130" width="200" height="60" as="geometry" />
+          <mxGeometry x="50" y="170" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KFji_q9-Yh2TTK4zWRBe-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;verticalAlign=bottom;" edge="1" parent="1" source="KFji_q9-Yh2TTK4zWRBe-8" target="KFji_q9-Yh2TTK4zWRBe-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KFji_q9-Yh2TTK4zWRBe-8" value="Инициализация запроса на реализацию намерения изменения данных в системе&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="40" y="250" width="200" height="60" as="geometry" />
+          <mxGeometry x="50" y="280" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KFji_q9-Yh2TTK4zWRBe-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;verticalAlign=bottom;" edge="1" parent="1" source="KFji_q9-Yh2TTK4zWRBe-14" target="KFji_q9-Yh2TTK4zWRBe-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KFji_q9-Yh2TTK4zWRBe-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=bottom;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KFji_q9-Yh2TTK4zWRBe-14" target="KFji_q9-Yh2TTK4zWRBe-19">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="555" y="870" as="targetPoint" />
+            <mxPoint x="565" y="900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KFji_q9-Yh2TTK4zWRBe-14" value="Валидация данных" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="325" y="820" width="150" height="100" as="geometry" />
+          <mxGeometry x="335" y="890" width="150" height="100" as="geometry" />
         </mxCell>
         <mxCell id="KFji_q9-Yh2TTK4zWRBe-16" value="Выполнение запроса" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="340" y="980" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="1030" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KFji_q9-Yh2TTK4zWRBe-19" value="Возврат ошибки" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="620" y="840" width="120" height="60" as="geometry" />
+          <mxGeometry x="630" y="910" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KFji_q9-Yh2TTK4zWRBe-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;verticalAlign=bottom;" edge="1" parent="1" source="KFji_q9-Yh2TTK4zWRBe-22" target="KFji_q9-Yh2TTK4zWRBe-14">
           <mxGeometry relative="1" as="geometry" />
@@ -109,27 +119,59 @@
         <mxCell id="KFji_q9-Yh2TTK4zWRBe-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;verticalAlign=bottom;" edge="1" parent="1" source="KFji_q9-Yh2TTK4zWRBe-22" target="KFji_q9-Yh2TTK4zWRBe-19">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="650" y="705" />
+              <mxPoint x="660" y="785" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="KFji_q9-Yh2TTK4zWRBe-38" value="У пользователя нет прав&lt;br&gt;на внесение изменений" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="KFji_q9-Yh2TTK4zWRBe-32">
           <mxGeometry x="0.6098" y="2" relative="1" as="geometry">
-            <mxPoint x="-92" y="-101" as="offset" />
+            <mxPoint x="-92" y="-82" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KFji_q9-Yh2TTK4zWRBe-22" value="Проверка наличия прав пользователя на редактирование данных в системе" style="rhombus;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="320" y="650" width="160" height="110" as="geometry" />
+          <mxGeometry x="330" y="730" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="KFji_q9-Yh2TTK4zWRBe-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;verticalAlign=bottom;" edge="1" parent="1" source="KFji_q9-Yh2TTK4zWRBe-25" target="KFji_q9-Yh2TTK4zWRBe-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KFji_q9-Yh2TTK4zWRBe-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=10;verticalAlign=bottom;" edge="1" parent="1" source="KFji_q9-Yh2TTK4zWRBe-25" target="KFji_q9-Yh2TTK4zWRBe-19">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="310" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="KFji_q9-Yh2TTK4zWRBe-25" value="Проверка соответствия данных запросов намерения и реализации" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="325" y="230" width="150" height="100" as="geometry" />
+          <mxGeometry x="335" y="260" width="150" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="KFji_q9-Yh2TTK4zWRBe-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;verticalAlign=bottom;" edge="1" parent="1" source="KFji_q9-Yh2TTK4zWRBe-43" target="KFji_q9-Yh2TTK4zWRBe-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KFji_q9-Yh2TTK4zWRBe-43" value="Инициализация запроса на получение секретной фразы валидной на текущий момент" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KFji_q9-Yh2TTK4zWRBe-44" value="Передача актуальной секретной фразы" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="330" y="70" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tmAFMNnFplFG-j8Vp38l-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;verticalAlign=bottom;" edge="1" parent="1" source="tmAFMNnFplFG-j8Vp38l-1" target="KFji_q9-Yh2TTK4zWRBe-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tmAFMNnFplFG-j8Vp38l-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;verticalAlign=bottom;" edge="1" parent="1" source="tmAFMNnFplFG-j8Vp38l-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="675" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tmAFMNnFplFG-j8Vp38l-1" value="Проверка подписи переданных данных" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="335" y="600" width="150" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="z5rgFwH_A_g-KUkE28FQ" name="Page-2">
+    <mxGraphModel dx="2431" dy="1358" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="cc9H8GzoHp-mv-4fd8rG-0" />
+        <mxCell id="cc9H8GzoHp-mv-4fd8rG-1" parent="cc9H8GzoHp-mv-4fd8rG-0" />
       </root>
     </mxGraphModel>
   </diagram>
