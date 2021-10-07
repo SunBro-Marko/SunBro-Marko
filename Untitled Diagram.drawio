@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-07T09:44:09.043Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="JX1Y51xrTE3xxLOUbVHd" version="15.0.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-07T09:47:25.320Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="CRgHGt5q5Wdm3Ixa7cBJ" version="15.0.3" type="github" pages="2">
   <diagram id="QPJjpV0ahq78SXW-Z95E" name="Схема авторизированного запроса">
     <mxGraphModel dx="2066" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -175,8 +175,8 @@
         <mxCell id="89AftAxnw_WdFdfBm2Hg-0" value="Создание процесса" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="cc9H8GzoHp-mv-4fd8rG-1">
           <mxGeometry x="80" y="60" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="89AftAxnw_WdFdfBm2Hg-1" value="Загрузка фотографий" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="cc9H8GzoHp-mv-4fd8rG-1">
-          <mxGeometry x="520" y="60" width="120" height="40" as="geometry" />
+        <mxCell id="89AftAxnw_WdFdfBm2Hg-1" value="Загрузка документов и фотографий" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="cc9H8GzoHp-mv-4fd8rG-1">
+          <mxGeometry x="520" y="60" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="89AftAxnw_WdFdfBm2Hg-3" value="Передаваемые данные" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=11;" vertex="1" parent="cc9H8GzoHp-mv-4fd8rG-1">
           <mxGeometry x="520" y="110" width="200" height="208" as="geometry">
@@ -332,6 +332,28 @@
         </mxCell>
         <mxCell id="89AftAxnw_WdFdfBm2Hg-86" value="ID процесса" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="89AftAxnw_WdFdfBm2Hg-82">
           <mxGeometry y="104" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="89AftAxnw_WdFdfBm2Hg-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.01;entryY=0.394;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;verticalAlign=bottom;" edge="1" parent="cc9H8GzoHp-mv-4fd8rG-1" source="89AftAxnw_WdFdfBm2Hg-90" target="89AftAxnw_WdFdfBm2Hg-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="89AftAxnw_WdFdfBm2Hg-90" value="Скачивание архива" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="cc9H8GzoHp-mv-4fd8rG-1">
+          <mxGeometry x="80" y="920" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="89AftAxnw_WdFdfBm2Hg-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;verticalAlign=bottom;" edge="1" parent="cc9H8GzoHp-mv-4fd8rG-1" source="89AftAxnw_WdFdfBm2Hg-92">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230.00000000000023" y="950.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="89AftAxnw_WdFdfBm2Hg-92" value="Создание ПДФ" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="cc9H8GzoHp-mv-4fd8rG-1">
+          <mxGeometry x="80" y="980" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="89AftAxnw_WdFdfBm2Hg-93" value="Передаваемые данные" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=11;" vertex="1" parent="cc9H8GzoHp-mv-4fd8rG-1">
+          <mxGeometry x="240" y="920" width="200" height="52" as="geometry">
+            <mxRectangle x="520" y="110" width="150" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="89AftAxnw_WdFdfBm2Hg-97" value="ID процесса" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="89AftAxnw_WdFdfBm2Hg-93">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
