@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-08T06:49:59.253Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="DKddAodBixBj-yqYeTvu" version="15.0.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-08T08:16:17.812Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="dkQzTV2eE_HY4bZ2aYr_" version="15.0.3" type="github" pages="3">
   <diagram id="QPJjpV0ahq78SXW-Z95E" name="Схема авторизированного запроса">
     <mxGraphModel dx="835" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -357,7 +357,7 @@
       <root>
         <mxCell id="hKTqSiehsj9pc1tFRO5A-0" />
         <mxCell id="hKTqSiehsj9pc1tFRO5A-1" parent="hKTqSiehsj9pc1tFRO5A-0" />
-        <mxCell id="_HpbIFhheYKOr1VhTs2P-2" value="Передача уникального UID для подписания сертифицированной электронной подписью" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="hKTqSiehsj9pc1tFRO5A-1">
+        <mxCell id="_HpbIFhheYKOr1VhTs2P-2" value="Передача уникального UUID для подписания сертифицированной электронной подписью" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="hKTqSiehsj9pc1tFRO5A-1">
           <mxGeometry x="353" y="112" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_HpbIFhheYKOr1VhTs2P-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;verticalAlign=bottom;" edge="1" parent="hKTqSiehsj9pc1tFRO5A-1" source="_HpbIFhheYKOr1VhTs2P-17" target="_HpbIFhheYKOr1VhTs2P-43">
@@ -366,7 +366,7 @@
         <mxCell id="wmz6ru58j7dpv6s4mAcb-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;verticalAlign=bottom;" edge="1" parent="hKTqSiehsj9pc1tFRO5A-1" source="_HpbIFhheYKOr1VhTs2P-17" target="_HpbIFhheYKOr1VhTs2P-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_HpbIFhheYKOr1VhTs2P-17" value="Проверка откреплённой подписи&lt;br style=&quot;font-size: 11px&quot;&gt;уникального UID операции" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="hKTqSiehsj9pc1tFRO5A-1">
+        <mxCell id="_HpbIFhheYKOr1VhTs2P-17" value="Проверка откреплённой подписи&lt;br style=&quot;font-size: 11px&quot;&gt;уникального UUID операции" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="hKTqSiehsj9pc1tFRO5A-1">
           <mxGeometry x="361.5" y="181.25" width="203" height="141.5" as="geometry" />
         </mxCell>
         <mxCell id="_HpbIFhheYKOr1VhTs2P-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;verticalAlign=bottom;" edge="1" parent="hKTqSiehsj9pc1tFRO5A-1" source="_HpbIFhheYKOr1VhTs2P-19" target="_HpbIFhheYKOr1VhTs2P-2">
@@ -382,10 +382,10 @@
           <mxGeometry x="103" y="222" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_HpbIFhheYKOr1VhTs2P-25" value="Выдача токена авторизации" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="hKTqSiehsj9pc1tFRO5A-1">
-          <mxGeometry x="403" y="522" width="120" height="60" as="geometry" />
+          <mxGeometry x="403" y="549" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_HpbIFhheYKOr1VhTs2P-26" value="Возврат ошибки" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hKTqSiehsj9pc1tFRO5A-1">
-          <mxGeometry x="633" y="222" width="120" height="60" as="geometry" />
+          <mxGeometry x="672" y="222" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_HpbIFhheYKOr1VhTs2P-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;verticalAlign=bottom;" edge="1" parent="hKTqSiehsj9pc1tFRO5A-1" source="_HpbIFhheYKOr1VhTs2P-43" target="_HpbIFhheYKOr1VhTs2P-25">
           <mxGeometry relative="1" as="geometry" />
@@ -395,6 +395,18 @@
         </mxCell>
         <mxCell id="_HpbIFhheYKOr1VhTs2P-43" value="Проверка данных учётной записи по регестру ФГИС" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="hKTqSiehsj9pc1tFRO5A-1">
           <mxGeometry x="395" y="381" width="136" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="wmz6ru58j7dpv6s4mAcb-4" value="Данные не прошли проверку" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="hKTqSiehsj9pc1tFRO5A-1">
+          <mxGeometry x="531" y="418" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wmz6ru58j7dpv6s4mAcb-5" value="Данные прошли проверку" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="hKTqSiehsj9pc1tFRO5A-1">
+          <mxGeometry x="303" y="509" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wmz6ru58j7dpv6s4mAcb-6" value="Подпись валидна" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="hKTqSiehsj9pc1tFRO5A-1">
+          <mxGeometry x="303" y="337" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wmz6ru58j7dpv6s4mAcb-7" value="Подпись не валидна" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="hKTqSiehsj9pc1tFRO5A-1">
+          <mxGeometry x="536" y="230" width="160" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
