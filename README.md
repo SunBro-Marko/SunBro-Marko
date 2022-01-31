@@ -42,15 +42,6 @@
 <br />
 <br />
 
----
-### 📺 Latest YouTube Videos
-
-<!-- YOUTUBE:START -->
-- [Протесты в Беларуси от первого лица   Редакция - color correction](https://www.youtube.com/watch?v=KsSV9eRwzBE)
-<!-- YOUTUBE:END -->
-
-➡️ [more videos...](https://youtube.com/UCsINOCJyiVcd3bqNh8bqsyw)
-
 ### 📺 My GitHub Stats
 
   <img align="left" alt="SunBro_Marko's Github Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=sunbro-marko&show_icons=true&hide_border=true" />
